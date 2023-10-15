@@ -5,6 +5,7 @@ import SecondComponent from './component/SecondComponent/SecondComponent';
 import FunctionProps from './component/FunctionProps/FunctionProps';
 import ClassProps from './component/ClassProps/ClassProps';
 import StatesChange from './component/StatesChange/StatesChange';
+import MyCounter from './component/MyCounter/MyCounter';
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
     {/* <ClassProps name="omar" course="IoT" age="25" phoneNumber="+201118840442">
       <p>this is a quick preview about me using ClassProps </p>
     </ClassProps> */}
-    <StatesChange/>
+    {/* <StatesChange/> */}
+    <MyCounter></MyCounter>
     </div>
   );
 }

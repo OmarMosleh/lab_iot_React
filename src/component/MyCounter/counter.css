@@ -1,0 +1,25 @@
+.unit{
+    display: flex;
+    max-width:300 px;
+    /* border:1px solid black !important; */
+    margin:50px 300px; ;
+    height:30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color:ghostwhite;
+    border-radius: 25px;
+    border-color:transparent
+}
+button{
+    border-radius: 50%;
+    height:25px;
+    width:25px;
+    background-color: gold;
+    border-color: transparent !important;
+}
+button:hover{
+    color:gold;
+    background-color: black;
+    cursor:pointer;
+}
+
